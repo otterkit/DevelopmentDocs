@@ -1,4 +1,4 @@
-Natani Virtual Machine OPCodes:
+## Natani Virtual Machine OPCodes:
 
 |    Mnemonic   |  Hex OPCodes  |  Description                                                                                                  |
 | ------------- | ------------- | ------------------------------------------------------------------------------------------------------------- |
