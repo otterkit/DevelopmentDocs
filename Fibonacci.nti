@@ -1,5 +1,3 @@
-with system.io;
-
 local data is
   number : array     := [parameters];
   fib1   : procedure := call 'main' number[0] - 1
