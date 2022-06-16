@@ -9,9 +9,9 @@
 .section _data:
   // 0x01 .. 0x64 are reserved for
   // variable definitions
-  0x01 0x6a := 5;
-  0x02 0x6a := 0;
-  0x03 0x6a := 0;
+  0x01 int := 5;
+  0x02 int := 0;
+  0x03 int := 0;
   // Type definition: 0x6a = integer
 .end _data;
 
