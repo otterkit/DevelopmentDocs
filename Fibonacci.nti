@@ -1,7 +1,7 @@
 local data is
-  number : array     := [parameters];
-  fib1   : procedure := call 'main' number[0] - 1
-  fib2   : procedure := call 'main' number[0] - 2
+  number : array   := [parameters];
+  fib1   : integer := call 'main' number[0] - 1
+  fib2   : integer := call 'main' number[0] - 2
 end local;
 
 main procedure is
