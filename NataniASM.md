@@ -34,7 +34,6 @@
     data.get 0x03;
     stack.mul;
     data.set 0x03
-    num := num * fact;
   .end;
 
   system.call 'print';
