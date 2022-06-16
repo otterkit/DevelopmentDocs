@@ -3,7 +3,7 @@
 |    Mnemonic   |  Hex OPCodes  |  Description                                                                                                  |
 | ------------- | ------------- | ------------------------------------------------------------------------------------------------------------- |
 | system.call   |     0x65      |  *system.call **value*** -- Get value of a procedure from the stack and execute it                            |
-| system.return |     0x66      |  *system.return **values*** -- Get values from the stack and returns them, exiting the procedure              |
+| system.return |     0x66      |  *system.return **value*** -- Get value from the stack and returns it, exiting the procedure                  |
 |   ---------   | 0x01 ... 0x64 |  Reserved for variable addresses -- Total of 100 variable definitions per file                                |
 |   int         |     0x6a      |  *address **int*** -- Integer type definition                                                                 |
 |   float       |     0x6b      |  *address **float*** -- Float type definition                                                                 |
