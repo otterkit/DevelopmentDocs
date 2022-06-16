@@ -17,7 +17,7 @@
 
 .procedure _main:
   // Get value from variable 0x01 and put it into the stack
-  // Set value of varible 0x03 with first value from the stack
+  // Set value of varible 0x03 to the first value of the stack
   data.get 0x01;
   data.set 0x03;
 
