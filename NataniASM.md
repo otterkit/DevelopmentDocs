@@ -15,10 +15,8 @@
 .end _data;
 
 .procedure _main:
-  // Get value from variable 0x01 and put it into the stack
-  // Set value of varible 0x03 to the first value of the stack
-  data.get 0x01;
-  data.set 0x03;
+  data.get 0x01;  // Get value from variable 0x01 and put it on the stack
+  data.set 0x03;  // Set value of varible 0x03 to the first value on the stack
 
   
   .if 0x01 = 0:
