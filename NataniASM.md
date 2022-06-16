@@ -12,7 +12,6 @@
   0x01 int := 5;
   0x02 int := 0;
   0x03 int := 0;
-  // Type definition: 0x6a = integer
 .end _data;
 
 .procedure _main:
