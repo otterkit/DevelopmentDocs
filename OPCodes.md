@@ -10,7 +10,7 @@
 |   bool        |     0x6c      |  *address **bool*** -- Bool type definition                                                                   |
 |   arr         |     0x6d      |  *address **arr*** -- Array type definition                                                                   |
 |   struct      |     0x6e      |  *address **struct*** -- Struct type definition                                                               |
-|   proc        |     0x6f      |  *address **proc*** -- Procedure type definition                                                              |
+|   list        |     0x6f      |  *address **list*** -- List type definition                                                                   |
 |   stack.set   |     0xa0      |  *stack.set **value*** -- Set a value on top of the stack                                                     |
 |   stack.add   |     0xa1      |  *stack.add* -- Takes the first two values from the stack, adds them and sets the result on the stack         |
 |   stack.sub   |     0xa2      |  *stack.sub* -- Takes the first two values from the stack, subtracts them and sets the result on the stack    |
