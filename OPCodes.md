@@ -2,14 +2,14 @@
 
 |    Mnemonic   |  Hex OPCodes  |  Description                                                                                                  |
 | ------------- | ------------- | ------------------------------------------------------------------------------------------------------------- |
-| system.call   |     0x65      |  *system.call **value*** -- Get value of a procedure from the stack and execute it                            |
-| system.return |     0x66      |  *system.return **value*** -- Get value from the stack and returns it, exiting the procedure                  |
+| system.call   |     0x65      |  *system.call **value*** -- Get value of a function from the stack and execute it                             |
+| system.return |     0x66      |  *system.return **value*** -- Get value from the stack and returns it, exiting the function                   |
 |   ---------   | 0x01 ... 0x64 |  Reserved for variable addresses -- Total of 100 variable definitions per file                                |
 |   int         |     0x6a      |  *address **int*** -- Integer type definition                                                                 |
 |   float       |     0x6b      |  *address **float*** -- Float type definition                                                                 |
 |   bool        |     0x6c      |  *address **bool*** -- Bool type definition                                                                   |
 |   arr         |     0x6d      |  *address **arr*** -- Array type definition                                                                   |
-|   struct      |     0x6e      |  *address **struct*** -- Struct type definition                                                               |
+|   group       |     0x6e      |  *address **group*** -- Group type definition                                                                 |
 |   list        |     0x6f      |  *address **list*** -- List type definition                                                                   |
 |   stack.set   |     0xa0      |  *stack.set **value*** -- Set a value on top of the stack                                                     |
 |   stack.add   |     0xa1      |  *stack.add* -- Takes the first two values from the stack, adds them and sets the result on the stack         |
