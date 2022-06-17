@@ -4,7 +4,7 @@ local data is
   fib2   : int := call main()
 end local
 
-main procedure ( number : int array ) is
+main procedure is
   
   if number[0] < 2 then
     return number[0]
