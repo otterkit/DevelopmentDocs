@@ -1,15 +1,15 @@
 local data is
-  number : array   := [parameters];
-  fib1   : integer := call 'main' number[0] - 1
-  fib2   : integer := call 'main' number[0] - 2
-end local;
+  number : array   := [parameters]
+  fib1   : integer := call main()
+  fib2   : integer := call main()
+end local
 
-main procedure is
+main procedure ( number : array ) is
   
   if number[0] < 2 then
-    return number[0];
+    return number[0]
   else 
-    return fib1 + fib2;
-  end if;
+    return fib1(number[0] - 1) + fib2(number[0] - 2)
+  end if
   
-end main;
+end main
