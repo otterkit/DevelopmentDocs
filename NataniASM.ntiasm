@@ -1,4 +1,4 @@
-```
+
 //
 // Natani Assembly Example
 // Instruction Text Format
@@ -40,4 +40,3 @@
   display '! = ';        // "system.io.display" print a string to the console
   display 0x02;          // "system.io.display" print value of variable 0x02
 end _print;
-```
