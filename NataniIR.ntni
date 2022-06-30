@@ -1,0 +1,14 @@
+[:main module
+  [:entry [:main:]:]
+  [:type [:synchronous:]:]
+  [:exports [:main:]:]
+  
+  [:let 
+    [:fn [:main:][:params i32 i32:]
+      [:local.get 0:]
+      [:local.get 1:]
+      [:i32.add:]
+      [:return i32:]
+    :]
+  :]
+:]
