@@ -1,0 +1,17 @@
+main module
+  let io := with('std/io');
+  let mod := with('std/mod');
+  let nataniDev := "https://natani.dev/modules";
+
+  mod.data([:
+    entry := main(),
+    remote := nataniDev,
+    type := "hub",
+  :]);
+  
+  let main := fn(): void
+    io.display("Execute remote module nataniDev.add");
+  endfn;
+  
+  io.display(nataniDev.add(5, 10);
+endmod;
